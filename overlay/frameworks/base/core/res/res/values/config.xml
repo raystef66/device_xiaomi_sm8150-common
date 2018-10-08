@@ -413,5 +413,7 @@
     <!-- Enable Smart charging. -->
     <bool name="config_deviceSupportSmartCharging">true</bool>
 
->>>>>>> c66de2c... cepheus: enable Smart Charging and in-built Screen Recorder
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
 </resources>
