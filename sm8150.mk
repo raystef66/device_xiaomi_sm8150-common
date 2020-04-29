@@ -276,6 +276,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Overlay
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.xiaomi_sm8150
