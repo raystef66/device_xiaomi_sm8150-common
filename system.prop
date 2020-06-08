@@ -1,3 +1,7 @@
+# Strict Mode
+persist.sys.strictmode.visual=0
+persist.sys.strictmode.disable=1
+
 # Bluetooth
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac
 persist.vendor.btstack.connect.peer_earbud=true
