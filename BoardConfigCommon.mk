@@ -150,7 +150,7 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_xiaomi
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cepheus
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # RIL
@@ -166,6 +166,10 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_cepheus
+TARGET_RECOVERY_DEVICE_MODULES := libinit_cepheus
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
