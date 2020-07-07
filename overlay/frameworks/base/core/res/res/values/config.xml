@@ -416,4 +416,7 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
+    <!-- Disable SBC HD audio dual channel support by default -->
+    <bool name="config_enableSBCDualChannelAudio">false</bool>
+
 </resources>
