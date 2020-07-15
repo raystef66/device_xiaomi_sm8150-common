@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
     com.gsma.services.nfc \
     com.nxp.nfc.nq \
     libnqnfc_nci_jni \
-    NQNfcNci \
+    NfcNci \
     Tag
 
 PRODUCT_PACKAGES += \
