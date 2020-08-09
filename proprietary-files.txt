@@ -985,3 +985,8 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libwfdhdcpcp.so
 
+# Camera
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
