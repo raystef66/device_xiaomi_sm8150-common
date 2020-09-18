@@ -10,6 +10,8 @@ COMMON_PATH := device/xiaomi/sm8150-common
 
 BUILD_BROKEN_DUP_RULES := true
 
+TARGET_USES_FOD_ZPOS := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
